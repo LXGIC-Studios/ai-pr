@@ -1,0 +1,46 @@
+{
+  "name": "@lxgicstudios/ai-pr",
+  "version": "1.0.0",
+  "description": "Generate pull request descriptions from git diff. Summarize changes, list modified files, detect breaking changes, and suggest reviewers automatically.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "ai-pr": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "pull-request",
+    "git-diff",
+    "pr-description",
+    "code-review",
+    "git-tools",
+    "changelog",
+    "breaking-changes",
+    "conventional-commits",
+    "developer-tools",
+    "cli",
+    "automation",
+    "git",
+    "pr-generator",
+    "reviewer-suggestion"
+  ],
+  "author": "LXGIC Studios",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lxgicstudios/ai-pr.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/node": "^25.2.2",
+    "typescript": "^5.9.3"
+  }
+}
